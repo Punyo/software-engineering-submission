@@ -11,7 +11,7 @@ public class FileCopy {
 
     public static void main(String[] args) {
         String source =  SECRET_FILE;
-        String destination = "./copy_of_secrets.txt";
+        String destination = "./copy_of_secrets_changed.txt";
 
         try {
             DataInputStream stream = new DataInputStream(new java.io.FileInputStream(source));
