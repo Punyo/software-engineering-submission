@@ -21,7 +21,7 @@ public class FileCopy {
                 out.writeByte(b);
             }
         } catch (IOException e) {
-            System.out.println("ファイルのコピー中にエラーが発生しました。");
+            System.out.println("ファイルのコピー中にエラーが発生した...かもしれないですね？？？？");
             e.printStackTrace();
         }
     }
